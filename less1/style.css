@@ -36,6 +36,11 @@ body {
   /* display: block; */
 } 
 
+.navbar-wrapper ul a:hover {
+  color: black;
+  transition: ease-out 0.2s;
+}
+
 .navbar-wrapper ul.nav-left {
   background-color: mediumaquamarine;
   flex-grow: 1;
