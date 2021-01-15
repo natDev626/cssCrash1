@@ -6,11 +6,12 @@ body {
 .navbar-wrapper {
   border: solid 1px red;
   height: 50px;
+  display: flex;
 }
 
 .content-wrapper {
   border: solid 1px blue;
-  height: 1000px;  
+  /* height: 500px;   */
 }
 
 .footer-wrapper {
@@ -18,4 +19,50 @@ body {
   height: 240px;
   background: #333;
   color: white;
+}
+
+.navbar-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: lightseagreen;
+}
+
+.navbar-wrapper ul a {
+  color: white;
+  border: solid 1px black;
+  padding: 10px;
+  /* display: block; */
+} 
+
+.navbar-wrapper ul.nav-left {
+  background-color: mediumaquamarine;
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+}
+
+.navbar-wrapper ul.nav-right {
+  background-color: mediumslateblue;
+  display: flex;
+  align-items: center;
+}
+
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  border: solid 1px red;
+  height: 200px;
+  display: flex;
+  align-items: center; 
+}
+
+.blog-info {
+  /* border: solid 1px green; */
+  padding: 10px;
 }
