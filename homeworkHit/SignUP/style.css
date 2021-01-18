@@ -1,0 +1,50 @@
+.signup-wrapper {
+  border: solid 1px red;
+  width: 380px;
+  margin: 100px auto;
+}
+
+.signup-wrapper .signup-header {
+  border: solid 1px #333;
+  background-color: #333;
+  color: white;
+  padding: 10px 4px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.signup-wrapper .input-wrapper {
+  border: solid 1px pink;
+  padding: 4px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.signup-wrapper .input-wrapper label {
+  /* border: solid 1px red; */
+  display: flex;
+  width: 100px;
+  align-items: center;
+}
+
+.signup-wrapper .input-wrapper input {
+  width: 100%;
+  height: 32px;
+}
+
+.signup-wrapper .input-wrapper button {
+  height: 32px;
+  width: 100%;  
+}
+
+.login-link {
+  display: flex;
+  justify-content: flex-end;
+  border: solid 1px black;
+}
+
+.login-link p {
+  border: solid 1px red;
+  font-size: 14px;
+}
+
